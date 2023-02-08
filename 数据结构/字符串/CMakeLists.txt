@@ -1,5 +1,0 @@
-PROJECT(字符串)
-
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
-
-ADD_EXECUTABLE(字符串的旋转 1_字符串的旋转.cpp)

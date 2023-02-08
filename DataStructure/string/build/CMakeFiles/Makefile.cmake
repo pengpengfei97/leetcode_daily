@@ -116,5 +116,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/字符串的旋转.dir/DependInfo.cmake"
+  "CMakeFiles/word_rotate.dir/DependInfo.cmake"
+  "CMakeFiles/string_rotate.dir/DependInfo.cmake"
   )

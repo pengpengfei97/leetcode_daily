@@ -1,4 +1,4 @@
-# Install script for directory: /home/ppf/leetcode_daily/数据结构/字符串
+# Install script for directory: /home/ppf/leetcode_daily/DataStructure/string
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ppf/leetcode_daily/数据结构/字符串/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ppf/leetcode_daily/DataStructure/string/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

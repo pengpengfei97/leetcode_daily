@@ -2,7 +2,7 @@
  * @Author: pengpengfei97 pengpengfei97@gmail.com
  * @Date: 2023-02-07 20:19:04
  * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
- * @LastEditTime: 2023-02-07 22:11:43
+ * @LastEditTime: 2023-02-08 21:04:01
  * @FilePath: /leetcode_daily/数据结构/字符串/1_字符串的旋转.cpp
  * @Description: 
  * 
@@ -17,9 +17,9 @@
 
 /**
  * @description: 我的解法
- * @param {string} s
- * @param {int} l
- * @param {int} n
+ * @param {string} s    操作的字符串
+ * @param {int} l   字符串长度
+ * @param {int} n   操作位数
  * @return {*}
  */
 std::string move(std::string s, int l,int n)
@@ -63,12 +63,44 @@ void LeftShiftOne(std::string &s, int l)
  * @param {int} n   字符串要移动的位数
  * @return {*}
  */
-void LeftRotateString(std::string &s,int l,int n)
+void LeftRotateString_1(std::string &s,int l,int n)
 {
     while(n--)
     {
         LeftShiftOne(s, l);
     }
+}
+
+//  ------------------------解法二：三步翻转法 ---------------------------
+/**
+ * @description: 字符串字符位置翻转函数
+ * @param {string} &s    要操作字符串
+ * @param {int} first   要操作的首位置
+ * @param {int} last    要操作的末尾位置
+ * @return {*}
+ */
+void ReverseString(std::string &s,int first,int last)
+{
+    while(first < last)
+    {
+        char t = s[first];
+        s[first++] = s[last];
+        s[last--] = t;
+    }
+}
+
+/**
+ * @description: 将整个字符串分成前后两个部分，先翻转前面部分，再翻转后面部分，最后翻转整个字符串
+ * @param {string} &s   字符串
+ * @param {int} l   字符串长度
+ * @param {int} n   要操作的位数
+ * @return {*}
+ */
+void LeftRotateString_2(std::string &s,int l,int n)
+{
+    ReverseString(s,0,n-1);
+    ReverseString(s,n,l-1);
+    ReverseString(s,0,l-1);
 }
 
 
@@ -81,7 +113,8 @@ int main()
     std::cout<<"before: s = " << s << "  n = " << n << std::endl;
 
     // s = move(s,l,n);
-    LeftRotateString(s, l ,n);
+    // LeftRotateString_1(s, l ,n);
+    LeftRotateString_2(s, l ,n);
 
     std::cout<<"after: s = " << s << std::endl;
 

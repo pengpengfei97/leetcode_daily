@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ppf/leetcode_daily/数据结构/字符串/1_字符串的旋转.cpp
+/home/ppf/leetcode_daily/DataStructure/string/1_string_rotate.cpp
 string
 -
 iostream

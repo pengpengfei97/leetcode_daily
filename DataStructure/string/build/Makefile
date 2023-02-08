@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ppf/leetcode_daily/数据结构/字符串
+CMAKE_SOURCE_DIR = /home/ppf/leetcode_daily/DataStructure/string
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ppf/leetcode_daily/数据结构/字符串/build
+CMAKE_BINARY_DIR = /home/ppf/leetcode_daily/DataStructure/string/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ppf/leetcode_daily/数据结构/字符串/build/CMakeFiles /home/ppf/leetcode_daily/数据结构/字符串/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles /home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ppf/leetcode_daily/数据结构/字符串/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 字符串的旋转
+# Target rules for targets named word_rotate
 
 # Build rule for target.
-字符串的旋转: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 字符串的旋转
-.PHONY : 字符串的旋转
+word_rotate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 word_rotate
+.PHONY : word_rotate
 
 # fast build rule for target.
-字符串的旋转/fast:
-	$(MAKE) -f CMakeFiles/字符串的旋转.dir/build.make CMakeFiles/字符串的旋转.dir/build
-.PHONY : 字符串的旋转/fast
+word_rotate/fast:
+	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/build
+.PHONY : word_rotate/fast
 
-1_字符串的旋转.o: 1_字符串的旋转.cpp.o
+#=============================================================================
+# Target rules for targets named string_rotate
 
-.PHONY : 1_字符串的旋转.o
+# Build rule for target.
+string_rotate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_rotate
+.PHONY : string_rotate
+
+# fast build rule for target.
+string_rotate/fast:
+	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/build
+.PHONY : string_rotate/fast
+
+1_string_rotate.o: 1_string_rotate.cpp.o
+
+.PHONY : 1_string_rotate.o
 
 # target to build an object file
-1_字符串的旋转.cpp.o:
-	$(MAKE) -f CMakeFiles/字符串的旋转.dir/build.make CMakeFiles/字符串的旋转.dir/1_字符串的旋转.cpp.o
-.PHONY : 1_字符串的旋转.cpp.o
+1_string_rotate.cpp.o:
+	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o
+.PHONY : 1_string_rotate.cpp.o
 
-1_字符串的旋转.i: 1_字符串的旋转.cpp.i
+1_string_rotate.i: 1_string_rotate.cpp.i
 
-.PHONY : 1_字符串的旋转.i
+.PHONY : 1_string_rotate.i
 
 # target to preprocess a source file
-1_字符串的旋转.cpp.i:
-	$(MAKE) -f CMakeFiles/字符串的旋转.dir/build.make CMakeFiles/字符串的旋转.dir/1_字符串的旋转.cpp.i
-.PHONY : 1_字符串的旋转.cpp.i
+1_string_rotate.cpp.i:
+	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/1_string_rotate.cpp.i
+.PHONY : 1_string_rotate.cpp.i
 
-1_字符串的旋转.s: 1_字符串的旋转.cpp.s
+1_string_rotate.s: 1_string_rotate.cpp.s
 
-.PHONY : 1_字符串的旋转.s
+.PHONY : 1_string_rotate.s
 
 # target to generate assembly for a file
-1_字符串的旋转.cpp.s:
-	$(MAKE) -f CMakeFiles/字符串的旋转.dir/build.make CMakeFiles/字符串的旋转.dir/1_字符串的旋转.cpp.s
-.PHONY : 1_字符串的旋转.cpp.s
+1_string_rotate.cpp.s:
+	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/1_string_rotate.cpp.s
+.PHONY : 1_string_rotate.cpp.s
+
+1_test_word_rotate.o: 1_test_word_rotate.cpp.o
+
+.PHONY : 1_test_word_rotate.o
+
+# target to build an object file
+1_test_word_rotate.cpp.o:
+	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o
+.PHONY : 1_test_word_rotate.cpp.o
+
+1_test_word_rotate.i: 1_test_word_rotate.cpp.i
+
+.PHONY : 1_test_word_rotate.i
+
+# target to preprocess a source file
+1_test_word_rotate.cpp.i:
+	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.i
+.PHONY : 1_test_word_rotate.cpp.i
+
+1_test_word_rotate.s: 1_test_word_rotate.cpp.s
+
+.PHONY : 1_test_word_rotate.s
+
+# target to generate assembly for a file
+1_test_word_rotate.cpp.s:
+	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.s
+.PHONY : 1_test_word_rotate.cpp.s
 
 # Help Target
 help:
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 字符串的旋转"
-	@echo "... 1_字符串的旋转.o"
-	@echo "... 1_字符串的旋转.i"
-	@echo "... 1_字符串的旋转.s"
+	@echo "... word_rotate"
+	@echo "... string_rotate"
+	@echo "... 1_string_rotate.o"
+	@echo "... 1_string_rotate.i"
+	@echo "... 1_string_rotate.s"
+	@echo "... 1_test_word_rotate.o"
+	@echo "... 1_test_word_rotate.i"
+	@echo "... 1_test_word_rotate.s"
 .PHONY : help
 
 
