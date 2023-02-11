@@ -2,11 +2,11 @@
  * @Author: pengpengfei97 pengpengfei97@gmail.com
  * @Date: 2023-02-07 20:19:04
  * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
- * @LastEditTime: 2023-02-08 21:04:01
- * @FilePath: /leetcode_daily/数据结构/字符串/1_字符串的旋转.cpp
+ * @LastEditTime: 2023-02-11 21:10:13
+ * @FilePath: /leetcode_daily/DataStructure/string/1_string_rotate.cpp
  * @Description: 
  * 
- * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
+ * Copyright (c) 2023 by pengpengfei97@gmail.com, All Rights Reserved. 
  */
 
 
