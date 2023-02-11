@@ -1,4 +1,5 @@
 /home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles/rebuild_cache.dir
 /home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles/edit_cache.dir
 /home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles/word_rotate.dir
+/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles/string_contain.dir
 /home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles/string_rotate.dir

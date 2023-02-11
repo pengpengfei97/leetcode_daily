@@ -124,6 +124,19 @@ word_rotate/fast:
 .PHONY : word_rotate/fast
 
 #=============================================================================
+# Target rules for targets named string_contain
+
+# Build rule for target.
+string_contain: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_contain
+.PHONY : string_contain
+
+# fast build rule for target.
+string_contain/fast:
+	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/build
+.PHONY : string_contain/fast
+
+#=============================================================================
 # Target rules for targets named string_rotate
 
 # Build rule for target.
@@ -190,6 +203,33 @@ string_rotate/fast:
 	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.s
 .PHONY : 1_test_word_rotate.cpp.s
 
+2_string_contain.o: 2_string_contain.cpp.o
+
+.PHONY : 2_string_contain.o
+
+# target to build an object file
+2_string_contain.cpp.o:
+	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/2_string_contain.cpp.o
+.PHONY : 2_string_contain.cpp.o
+
+2_string_contain.i: 2_string_contain.cpp.i
+
+.PHONY : 2_string_contain.i
+
+# target to preprocess a source file
+2_string_contain.cpp.i:
+	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/2_string_contain.cpp.i
+.PHONY : 2_string_contain.cpp.i
+
+2_string_contain.s: 2_string_contain.cpp.s
+
+.PHONY : 2_string_contain.s
+
+# target to generate assembly for a file
+2_string_contain.cpp.s:
+	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/2_string_contain.cpp.s
+.PHONY : 2_string_contain.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +239,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... word_rotate"
+	@echo "... string_contain"
 	@echo "... string_rotate"
 	@echo "... 1_string_rotate.o"
 	@echo "... 1_string_rotate.i"
@@ -206,6 +247,9 @@ help:
 	@echo "... 1_test_word_rotate.o"
 	@echo "... 1_test_word_rotate.i"
 	@echo "... 1_test_word_rotate.s"
+	@echo "... 2_string_contain.o"
+	@echo "... 2_string_contain.i"
+	@echo "... 2_string_contain.s"
 .PHONY : help
 
 
