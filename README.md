@@ -27,20 +27,19 @@
 
 #### 字符串
 
-##### **books**
+- books
 
-1. [字符串的旋转](DataStructure/string/string_rotate.cpp)
-2. [单词翻转](DataStructure/string/word_rotate.cpp)
-3. [字符串的包含](DataStructure/string/string_contain.cpp)
-4. [回文串判断](DataStructure/string/is_palindrome.cpp)
-5. [最大回文串数量计算](DataStructure/string/longest_palindrome.cpp)
+    1. [字符串的旋转](DataStructure/string/string_rotate.cpp)
+    2. [单词翻转](DataStructure/string/word_rotate.cpp)
+    3. [字符串的包含](DataStructure/string/string_contain.cpp)
+    4. [回文串判断](DataStructure/string/is_palindrome.cpp)
+    5. [最大回文串数量计算](DataStructure/string/longest_palindrome.cpp)
 
-##### **leetcode**
+- leetcode
+    - 简单
 
-- 简单
-
-1. [旋转字符串-796](https://leetcode.cn/problems/rotate-string/)
-2. [统计包含给定前缀的字符串-2185](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
+    1. [旋转字符串-796](https://leetcode.cn/problems/rotate-string/)
+    2. [统计包含给定前缀的字符串-2185](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
 
 
 #### 数组
