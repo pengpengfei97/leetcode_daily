@@ -1,1 +1,1 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o  -o word_rotate 
+/usr/bin/g++  -g  -rdynamic CMakeFiles/word_rotate.dir/word_rotate.cpp.o  -o word_rotate 

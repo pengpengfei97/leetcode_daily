@@ -57,27 +57,27 @@ include CMakeFiles/string_rotate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/string_rotate.dir/flags.make
 
-CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o: CMakeFiles/string_rotate.dir/flags.make
-CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o: ../1_string_rotate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o -c /home/ppf/leetcode_daily/DataStructure/string/1_string_rotate.cpp
+CMakeFiles/string_rotate.dir/string_rotate.cpp.o: CMakeFiles/string_rotate.dir/flags.make
+CMakeFiles/string_rotate.dir/string_rotate.cpp.o: ../string_rotate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/string_rotate.dir/string_rotate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_rotate.dir/string_rotate.cpp.o -c /home/ppf/leetcode_daily/DataStructure/string/string_rotate.cpp
 
-CMakeFiles/string_rotate.dir/1_string_rotate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/string_rotate.dir/1_string_rotate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ppf/leetcode_daily/DataStructure/string/1_string_rotate.cpp > CMakeFiles/string_rotate.dir/1_string_rotate.cpp.i
+CMakeFiles/string_rotate.dir/string_rotate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/string_rotate.dir/string_rotate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ppf/leetcode_daily/DataStructure/string/string_rotate.cpp > CMakeFiles/string_rotate.dir/string_rotate.cpp.i
 
-CMakeFiles/string_rotate.dir/1_string_rotate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/string_rotate.dir/1_string_rotate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ppf/leetcode_daily/DataStructure/string/1_string_rotate.cpp -o CMakeFiles/string_rotate.dir/1_string_rotate.cpp.s
+CMakeFiles/string_rotate.dir/string_rotate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/string_rotate.dir/string_rotate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ppf/leetcode_daily/DataStructure/string/string_rotate.cpp -o CMakeFiles/string_rotate.dir/string_rotate.cpp.s
 
 # Object files for target string_rotate
 string_rotate_OBJECTS = \
-"CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o"
+"CMakeFiles/string_rotate.dir/string_rotate.cpp.o"
 
 # External object files for target string_rotate
 string_rotate_EXTERNAL_OBJECTS =
 
-string_rotate: CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o
+string_rotate: CMakeFiles/string_rotate.dir/string_rotate.cpp.o
 string_rotate: CMakeFiles/string_rotate.dir/build.make
 string_rotate: CMakeFiles/string_rotate.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable string_rotate"

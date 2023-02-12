@@ -2,11 +2,11 @@
  * @Author: pengpengfei97 pengpengfei97@gmail.com
  * @Date: 2023-02-07 20:10:47
  * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
- * @LastEditTime: 2023-02-12 14:29:55
+ * @LastEditTime: 2023-02-12 19:47:46
  * @FilePath: /leetcode_daily/README.md
  * @Description: 
  * 
- * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
+ * Copyright (c) 2023 by pengpengfei, All Rights Reserved. 
 -->
 # 一个用来记录leetcode刷题过程的仓库
 
@@ -20,16 +20,18 @@
 
 ### 书籍准备
 始终觉得找本书作为参考，以书中的目录结构刷题可以使自己的思路更清晰，记忆效果或许也更好。本来开始打算用《剑指offer》作为参考书籍，后来在图书馆找书的过程中发现了《编程之法》这本书，相比与《剑指offer》针对面试整个过程细致入微的讲解，感觉《编程之法》结构更清晰明了，所以打算以《编程之法》为主要参考书籍，结合《剑指offer》的内容，再将视频里提到的学习顺序和方法结合起来，配套使用 😋
-1. 《编程之法：面试和算法心得》
+1. [《编程之法：面试和算法心得》](https://book.douban.com/subject/26641732/)（找这本书的时候发现这本书的评价如此之底，大多是说其内容东拼西凑且并非原创。不过我用这本书的目的主要是根据它的目录列一个自己的刷题大纲，且有几道题让我初步了解这个模块的内容，所以也还ok）
 2. 《剑指offer：名企面试官精讲典型编程题》 
 
 ## 学习顺序
 学习顺序是将上面两本书籍的目录和视频里建议的顺序结合起来设定的
 ### 数据结构部分（刷题标签）
 1. [字符串](DataStructure/string)
-- [字符串的旋转](DataStructure/string/1_string_rotate.cpp)
-- [单词翻转](DataStructure/string/1_test_word_rotate.cpp)
-- [字符串的包含](DataStructure/string/2_string_contain.cpp)
+- [字符串的旋转](DataStructure/string/string_rotate.cpp)
+- [单词翻转](DataStructure/string/word_rotate.cpp)
+- [字符串的包含](DataStructure/string/string_contain.cpp)
+- [回文串判断](DataStructure/string/is_palindrome.cpp)
+- [最大回文串数量计算](DataStructure/string/longest_palindrome.cpp)
 2. 数组
 3. 链表
 4. 树

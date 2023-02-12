@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o"
+  "CMakeFiles/string_rotate.dir/string_rotate.cpp.o"
   "string_rotate"
   "string_rotate.pdb"
 )

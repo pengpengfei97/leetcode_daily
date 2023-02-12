@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ppf/leetcode_daily/DataStructure/string/1_string_rotate.cpp" "/home/ppf/leetcode_daily/build/CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o"
+  "/home/ppf/leetcode_daily/DataStructure/string/string_rotate.cpp" "/home/ppf/leetcode_daily/build/CMakeFiles/string_rotate.dir/string_rotate.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

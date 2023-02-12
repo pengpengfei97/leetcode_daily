@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "string_rotate"
+			"path" : "word_rotate"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 5,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -45,7 +45,7 @@
 			]
 		}
 	],
-	"id" : "string_rotate::@6890427a1f51a3e7e1df",
+	"id" : "word_rotate::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +61,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "string_rotate",
-	"nameOnDisk" : "string_rotate",
+	"name" : "word_rotate",
+	"nameOnDisk" : "word_rotate",
 	"paths" : 
 	{
 		"build" : ".",
@@ -83,7 +83,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "1_string_rotate.cpp",
+			"path" : "word_rotate.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

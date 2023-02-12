@@ -57,27 +57,27 @@ include CMakeFiles/word_rotate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/word_rotate.dir/flags.make
 
-CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o: CMakeFiles/word_rotate.dir/flags.make
-CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o: ../1_test_word_rotate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o -c /home/ppf/leetcode_daily/DataStructure/string/1_test_word_rotate.cpp
+CMakeFiles/word_rotate.dir/word_rotate.cpp.o: CMakeFiles/word_rotate.dir/flags.make
+CMakeFiles/word_rotate.dir/word_rotate.cpp.o: ../word_rotate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/word_rotate.dir/word_rotate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/word_rotate.dir/word_rotate.cpp.o -c /home/ppf/leetcode_daily/DataStructure/string/word_rotate.cpp
 
-CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ppf/leetcode_daily/DataStructure/string/1_test_word_rotate.cpp > CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.i
+CMakeFiles/word_rotate.dir/word_rotate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_rotate.dir/word_rotate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ppf/leetcode_daily/DataStructure/string/word_rotate.cpp > CMakeFiles/word_rotate.dir/word_rotate.cpp.i
 
-CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ppf/leetcode_daily/DataStructure/string/1_test_word_rotate.cpp -o CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.s
+CMakeFiles/word_rotate.dir/word_rotate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_rotate.dir/word_rotate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ppf/leetcode_daily/DataStructure/string/word_rotate.cpp -o CMakeFiles/word_rotate.dir/word_rotate.cpp.s
 
 # Object files for target word_rotate
 word_rotate_OBJECTS = \
-"CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o"
+"CMakeFiles/word_rotate.dir/word_rotate.cpp.o"
 
 # External object files for target word_rotate
 word_rotate_EXTERNAL_OBJECTS =
 
-word_rotate: CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o
+word_rotate: CMakeFiles/word_rotate.dir/word_rotate.cpp.o
 word_rotate: CMakeFiles/word_rotate.dir/build.make
 word_rotate: CMakeFiles/word_rotate.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable word_rotate"

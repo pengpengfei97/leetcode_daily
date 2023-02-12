@@ -45,6 +45,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/longest_palindrome.dir/DependInfo.cmake"
+  "CMakeFiles/is_palindrome.dir/DependInfo.cmake"
   "CMakeFiles/word_rotate.dir/DependInfo.cmake"
   "CMakeFiles/string_contain.dir/DependInfo.cmake"
   "CMakeFiles/string_rotate.dir/DependInfo.cmake"

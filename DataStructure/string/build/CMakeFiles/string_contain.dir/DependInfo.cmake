@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ppf/leetcode_daily/DataStructure/string/2_string_contain.cpp" "/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles/string_contain.dir/2_string_contain.cpp.o"
+  "/home/ppf/leetcode_daily/DataStructure/string/string_contain.cpp" "/home/ppf/leetcode_daily/DataStructure/string/build/CMakeFiles/string_contain.dir/string_contain.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

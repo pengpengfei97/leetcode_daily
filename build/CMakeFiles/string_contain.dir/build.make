@@ -57,27 +57,27 @@ include CMakeFiles/string_contain.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/string_contain.dir/flags.make
 
-CMakeFiles/string_contain.dir/2_string_contain.cpp.o: CMakeFiles/string_contain.dir/flags.make
-CMakeFiles/string_contain.dir/2_string_contain.cpp.o: /home/ppf/leetcode_daily/DataStructure/string/2_string_contain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ppf/leetcode_daily/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/string_contain.dir/2_string_contain.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_contain.dir/2_string_contain.cpp.o -c /home/ppf/leetcode_daily/DataStructure/string/2_string_contain.cpp
+CMakeFiles/string_contain.dir/string_contain.cpp.o: CMakeFiles/string_contain.dir/flags.make
+CMakeFiles/string_contain.dir/string_contain.cpp.o: /home/ppf/leetcode_daily/DataStructure/string/string_contain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ppf/leetcode_daily/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/string_contain.dir/string_contain.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_contain.dir/string_contain.cpp.o -c /home/ppf/leetcode_daily/DataStructure/string/string_contain.cpp
 
-CMakeFiles/string_contain.dir/2_string_contain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/string_contain.dir/2_string_contain.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ppf/leetcode_daily/DataStructure/string/2_string_contain.cpp > CMakeFiles/string_contain.dir/2_string_contain.cpp.i
+CMakeFiles/string_contain.dir/string_contain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/string_contain.dir/string_contain.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ppf/leetcode_daily/DataStructure/string/string_contain.cpp > CMakeFiles/string_contain.dir/string_contain.cpp.i
 
-CMakeFiles/string_contain.dir/2_string_contain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/string_contain.dir/2_string_contain.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ppf/leetcode_daily/DataStructure/string/2_string_contain.cpp -o CMakeFiles/string_contain.dir/2_string_contain.cpp.s
+CMakeFiles/string_contain.dir/string_contain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/string_contain.dir/string_contain.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ppf/leetcode_daily/DataStructure/string/string_contain.cpp -o CMakeFiles/string_contain.dir/string_contain.cpp.s
 
 # Object files for target string_contain
 string_contain_OBJECTS = \
-"CMakeFiles/string_contain.dir/2_string_contain.cpp.o"
+"CMakeFiles/string_contain.dir/string_contain.cpp.o"
 
 # External object files for target string_contain
 string_contain_EXTERNAL_OBJECTS =
 
-string_contain: CMakeFiles/string_contain.dir/2_string_contain.cpp.o
+string_contain: CMakeFiles/string_contain.dir/string_contain.cpp.o
 string_contain: CMakeFiles/string_contain.dir/build.make
 string_contain: CMakeFiles/string_contain.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ppf/leetcode_daily/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable string_contain"

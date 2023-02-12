@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named longest_palindrome
+
+# Build rule for target.
+longest_palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longest_palindrome
+.PHONY : longest_palindrome
+
+# fast build rule for target.
+longest_palindrome/fast:
+	$(MAKE) -f CMakeFiles/longest_palindrome.dir/build.make CMakeFiles/longest_palindrome.dir/build
+.PHONY : longest_palindrome/fast
+
+#=============================================================================
+# Target rules for targets named is_palindrome
+
+# Build rule for target.
+is_palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 is_palindrome
+.PHONY : is_palindrome
+
+# fast build rule for target.
+is_palindrome/fast:
+	$(MAKE) -f CMakeFiles/is_palindrome.dir/build.make CMakeFiles/is_palindrome.dir/build
+.PHONY : is_palindrome/fast
+
+#=============================================================================
 # Target rules for targets named word_rotate
 
 # Build rule for target.
@@ -149,86 +175,140 @@ string_rotate/fast:
 	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/build
 .PHONY : string_rotate/fast
 
-1_string_rotate.o: 1_string_rotate.cpp.o
+is_palindrome.o: is_palindrome.cpp.o
 
-.PHONY : 1_string_rotate.o
-
-# target to build an object file
-1_string_rotate.cpp.o:
-	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/1_string_rotate.cpp.o
-.PHONY : 1_string_rotate.cpp.o
-
-1_string_rotate.i: 1_string_rotate.cpp.i
-
-.PHONY : 1_string_rotate.i
-
-# target to preprocess a source file
-1_string_rotate.cpp.i:
-	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/1_string_rotate.cpp.i
-.PHONY : 1_string_rotate.cpp.i
-
-1_string_rotate.s: 1_string_rotate.cpp.s
-
-.PHONY : 1_string_rotate.s
-
-# target to generate assembly for a file
-1_string_rotate.cpp.s:
-	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/1_string_rotate.cpp.s
-.PHONY : 1_string_rotate.cpp.s
-
-1_test_word_rotate.o: 1_test_word_rotate.cpp.o
-
-.PHONY : 1_test_word_rotate.o
+.PHONY : is_palindrome.o
 
 # target to build an object file
-1_test_word_rotate.cpp.o:
-	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.o
-.PHONY : 1_test_word_rotate.cpp.o
+is_palindrome.cpp.o:
+	$(MAKE) -f CMakeFiles/is_palindrome.dir/build.make CMakeFiles/is_palindrome.dir/is_palindrome.cpp.o
+.PHONY : is_palindrome.cpp.o
 
-1_test_word_rotate.i: 1_test_word_rotate.cpp.i
+is_palindrome.i: is_palindrome.cpp.i
 
-.PHONY : 1_test_word_rotate.i
+.PHONY : is_palindrome.i
 
 # target to preprocess a source file
-1_test_word_rotate.cpp.i:
-	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.i
-.PHONY : 1_test_word_rotate.cpp.i
+is_palindrome.cpp.i:
+	$(MAKE) -f CMakeFiles/is_palindrome.dir/build.make CMakeFiles/is_palindrome.dir/is_palindrome.cpp.i
+.PHONY : is_palindrome.cpp.i
 
-1_test_word_rotate.s: 1_test_word_rotate.cpp.s
+is_palindrome.s: is_palindrome.cpp.s
 
-.PHONY : 1_test_word_rotate.s
+.PHONY : is_palindrome.s
 
 # target to generate assembly for a file
-1_test_word_rotate.cpp.s:
-	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/1_test_word_rotate.cpp.s
-.PHONY : 1_test_word_rotate.cpp.s
+is_palindrome.cpp.s:
+	$(MAKE) -f CMakeFiles/is_palindrome.dir/build.make CMakeFiles/is_palindrome.dir/is_palindrome.cpp.s
+.PHONY : is_palindrome.cpp.s
 
-2_string_contain.o: 2_string_contain.cpp.o
+longest_palindrome.o: longest_palindrome.cpp.o
 
-.PHONY : 2_string_contain.o
+.PHONY : longest_palindrome.o
 
 # target to build an object file
-2_string_contain.cpp.o:
-	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/2_string_contain.cpp.o
-.PHONY : 2_string_contain.cpp.o
+longest_palindrome.cpp.o:
+	$(MAKE) -f CMakeFiles/longest_palindrome.dir/build.make CMakeFiles/longest_palindrome.dir/longest_palindrome.cpp.o
+.PHONY : longest_palindrome.cpp.o
 
-2_string_contain.i: 2_string_contain.cpp.i
+longest_palindrome.i: longest_palindrome.cpp.i
 
-.PHONY : 2_string_contain.i
+.PHONY : longest_palindrome.i
 
 # target to preprocess a source file
-2_string_contain.cpp.i:
-	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/2_string_contain.cpp.i
-.PHONY : 2_string_contain.cpp.i
+longest_palindrome.cpp.i:
+	$(MAKE) -f CMakeFiles/longest_palindrome.dir/build.make CMakeFiles/longest_palindrome.dir/longest_palindrome.cpp.i
+.PHONY : longest_palindrome.cpp.i
 
-2_string_contain.s: 2_string_contain.cpp.s
+longest_palindrome.s: longest_palindrome.cpp.s
 
-.PHONY : 2_string_contain.s
+.PHONY : longest_palindrome.s
 
 # target to generate assembly for a file
-2_string_contain.cpp.s:
-	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/2_string_contain.cpp.s
-.PHONY : 2_string_contain.cpp.s
+longest_palindrome.cpp.s:
+	$(MAKE) -f CMakeFiles/longest_palindrome.dir/build.make CMakeFiles/longest_palindrome.dir/longest_palindrome.cpp.s
+.PHONY : longest_palindrome.cpp.s
+
+string_contain.o: string_contain.cpp.o
+
+.PHONY : string_contain.o
+
+# target to build an object file
+string_contain.cpp.o:
+	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/string_contain.cpp.o
+.PHONY : string_contain.cpp.o
+
+string_contain.i: string_contain.cpp.i
+
+.PHONY : string_contain.i
+
+# target to preprocess a source file
+string_contain.cpp.i:
+	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/string_contain.cpp.i
+.PHONY : string_contain.cpp.i
+
+string_contain.s: string_contain.cpp.s
+
+.PHONY : string_contain.s
+
+# target to generate assembly for a file
+string_contain.cpp.s:
+	$(MAKE) -f CMakeFiles/string_contain.dir/build.make CMakeFiles/string_contain.dir/string_contain.cpp.s
+.PHONY : string_contain.cpp.s
+
+string_rotate.o: string_rotate.cpp.o
+
+.PHONY : string_rotate.o
+
+# target to build an object file
+string_rotate.cpp.o:
+	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/string_rotate.cpp.o
+.PHONY : string_rotate.cpp.o
+
+string_rotate.i: string_rotate.cpp.i
+
+.PHONY : string_rotate.i
+
+# target to preprocess a source file
+string_rotate.cpp.i:
+	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/string_rotate.cpp.i
+.PHONY : string_rotate.cpp.i
+
+string_rotate.s: string_rotate.cpp.s
+
+.PHONY : string_rotate.s
+
+# target to generate assembly for a file
+string_rotate.cpp.s:
+	$(MAKE) -f CMakeFiles/string_rotate.dir/build.make CMakeFiles/string_rotate.dir/string_rotate.cpp.s
+.PHONY : string_rotate.cpp.s
+
+word_rotate.o: word_rotate.cpp.o
+
+.PHONY : word_rotate.o
+
+# target to build an object file
+word_rotate.cpp.o:
+	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/word_rotate.cpp.o
+.PHONY : word_rotate.cpp.o
+
+word_rotate.i: word_rotate.cpp.i
+
+.PHONY : word_rotate.i
+
+# target to preprocess a source file
+word_rotate.cpp.i:
+	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/word_rotate.cpp.i
+.PHONY : word_rotate.cpp.i
+
+word_rotate.s: word_rotate.cpp.s
+
+.PHONY : word_rotate.s
+
+# target to generate assembly for a file
+word_rotate.cpp.s:
+	$(MAKE) -f CMakeFiles/word_rotate.dir/build.make CMakeFiles/word_rotate.dir/word_rotate.cpp.s
+.PHONY : word_rotate.cpp.s
 
 # Help Target
 help:
@@ -238,18 +318,26 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... longest_palindrome"
+	@echo "... is_palindrome"
 	@echo "... word_rotate"
 	@echo "... string_contain"
 	@echo "... string_rotate"
-	@echo "... 1_string_rotate.o"
-	@echo "... 1_string_rotate.i"
-	@echo "... 1_string_rotate.s"
-	@echo "... 1_test_word_rotate.o"
-	@echo "... 1_test_word_rotate.i"
-	@echo "... 1_test_word_rotate.s"
-	@echo "... 2_string_contain.o"
-	@echo "... 2_string_contain.i"
-	@echo "... 2_string_contain.s"
+	@echo "... is_palindrome.o"
+	@echo "... is_palindrome.i"
+	@echo "... is_palindrome.s"
+	@echo "... longest_palindrome.o"
+	@echo "... longest_palindrome.i"
+	@echo "... longest_palindrome.s"
+	@echo "... string_contain.o"
+	@echo "... string_contain.i"
+	@echo "... string_contain.s"
+	@echo "... string_rotate.o"
+	@echo "... string_rotate.i"
+	@echo "... string_rotate.s"
+	@echo "... word_rotate.o"
+	@echo "... word_rotate.i"
+	@echo "... word_rotate.s"
 .PHONY : help
 
 
