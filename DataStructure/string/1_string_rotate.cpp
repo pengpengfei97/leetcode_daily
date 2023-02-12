@@ -2,9 +2,9 @@
  * @Author: pengpengfei97 pengpengfei97@gmail.com
  * @Date: 2023-02-07 20:19:04
  * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
- * @LastEditTime: 2023-02-11 21:10:13
+ * @LastEditTime: 2023-02-12 14:32:19
  * @FilePath: /leetcode_daily/DataStructure/string/1_string_rotate.cpp
- * @Description: 
+ * @Description: 字符串的旋转，将字符串前面的若干个字符移到字符串的尾部
  * 
  * Copyright (c) 2023 by pengpengfei97@gmail.com, All Rights Reserved. 
  */

@@ -1,3 +1,13 @@
+<!--
+ * @Author: pengpengfei97 pengpengfei97@gmail.com
+ * @Date: 2023-02-07 20:10:47
+ * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
+ * @LastEditTime: 2023-02-12 14:29:55
+ * @FilePath: /leetcode_daily/README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
+-->
 # 一个用来记录leetcode刷题过程的仓库
 
 ## 前期准备
@@ -16,7 +26,10 @@
 ## 学习顺序
 学习顺序是将上面两本书籍的目录和视频里建议的顺序结合起来设定的
 ### 数据结构部分（刷题标签）
-1. 字符串
+1. [字符串](DataStructure/string)
+- [字符串的旋转](DataStructure/string/1_string_rotate.cpp)
+- [单词翻转](DataStructure/string/1_test_word_rotate.cpp)
+- [字符串的包含](DataStructure/string/2_string_contain.cpp)
 2. 数组
 3. 链表
 4. 树
