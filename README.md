@@ -14,8 +14,8 @@
 
 始终觉得找本书作为参考，以书中的目录结构刷题可以使自己的思路更清晰，记忆效果或许也更好。本来开始打算用《剑指offer》作为参考书籍，后来在图书馆找书的过程中发现了《编程之法》这本书，相比与《剑指offer》针对面试整个过程细致入微的讲解，感觉《编程之法》结构更清晰明了，所以打算以《编程之法》为主要参考书籍，结合《剑指offer》的内容，再将视频里提到的学习顺序和方法结合起来，配套使用 😋
 
-1. [《编程之法：面试和算法心得》](https://book.douban.com/subject/26641732/)
-（在豆瓣找这本书的时候发现这本书的评价好低，大多是说其内容东拼西凑且并非原创。不过我用这本书的目的主要是根据它的目录列一个自己的刷题大纲，且有几道题让我初步了解这个模块的内容，所以也还ok）
+1. [《编程之法：面试和算法心得》](https://book.douban.com/subject/26641732/)  
+在豆瓣找这本书的时候发现这本书的评价好低，大多是说其内容东拼西凑且并非原创。不过我用这本书的目的主要是根据它的目录列一个自己的刷题大纲，且有几道题让我初步了解这个模块的内容，所以也还ok）
 
 2. [《剑指offer：名企面试官精讲典型编程题》](https://book.douban.com/subject/25910559/) 
 
@@ -37,9 +37,13 @@
 
 - leetcode
     - 简单
+        1. [旋转字符串-796](https://leetcode.cn/problems/rotate-string/)
+        2. [统计包含给定前缀的字符串-2185](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
 
-    1. [旋转字符串-796](https://leetcode.cn/problems/rotate-string/)
-    2. [统计包含给定前缀的字符串-2185](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
+    - 中等
+        1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)  
+        看起来是字符串，其实主要还是动态规划的知识点，刚开始刷题且第一次做动态规划，一道题磕了一晚上,有被难到 TT。掌握了动态规划的基本思想，同时get了使用vector创建并初始化二维数组的方法。
+
 
 
 #### 数组
@@ -53,6 +57,11 @@
 
 #### 查找和排序
 #### 动态规划
+
+- leetcode
+    - 中等
+        1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)
+
 #### 递归和循环
 #### 贪心算法
 #### 双指针
