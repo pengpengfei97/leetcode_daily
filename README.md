@@ -43,13 +43,17 @@
     - 中等
         1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)  
         看起来是字符串，其实主要还是动态规划的知识点，刚开始刷题且第一次做动态规划，一道题磕了一晚上,有被难到 TT。掌握了动态规划的基本思想，同时get了使用vector创建并初始化二维数组的方法。
-
+        2. [字符串解码-394](https://leetcode.cn/problems/decode-string/)   
+        字符串和栈的结合，因为还没看栈的题加上对栈有点忘了，也用了一点时间。
 
 
 #### 数组
 #### 链表
 #### 树
 #### 栈和队列
+- leetcode
+    - 中等
+        1. [字符串解码-394](https://leetcode.cn/problems/decode-string/)（字符串）
 #### 哈希表
 #### 数学
 
@@ -60,7 +64,7 @@
 
 - leetcode
     - 中等
-        1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)
+        1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)（字符串）
 
 #### 递归和循环
 #### 贪心算法
