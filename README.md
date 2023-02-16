@@ -39,12 +39,14 @@
     - 简单
         1. [旋转字符串-796](https://leetcode.cn/problems/rotate-string/)
         2. [统计包含给定前缀的字符串-2185](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
+        3. [最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/)
 
     - 中等
         1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)  
         看起来是字符串，其实主要还是动态规划的知识点，刚开始刷题且第一次做动态规划，一道题磕了一晚上,有被难到 TT。掌握了动态规划的基本思想，同时get了使用vector创建并初始化二维数组的方法。
         2. [字符串解码-394](https://leetcode.cn/problems/decode-string/)   
         字符串和栈的结合，因为还没看栈的题加上对栈有点忘了，也用了一点时间。
+        3. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
 
 
 #### 数组
@@ -55,6 +57,9 @@
     - 中等
         1. [字符串解码-394](https://leetcode.cn/problems/decode-string/)（字符串）
 #### 哈希表
+- leetcode
+    - 中等
+        1. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)(字符串)
 #### 数学
 
 ### 算法部分
@@ -71,5 +76,9 @@
 #### 双指针
 #### 深度优先和广度优先
 #### 滑动窗口
+
+- leetcode
+    - 中等
+        1. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)(字符串)
 #### 回溯
 #### 位运算
