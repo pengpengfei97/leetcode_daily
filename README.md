@@ -1,3 +1,13 @@
+<!--
+ * @Author: pengpengfei97 pengpengfei97@gmail.com
+ * @Date: 2023-02-07 20:10:47
+ * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
+ * @LastEditTime: 2023-02-21 22:39:33
+ * @FilePath: /leetcode_daily/README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by pengpengfei, All Rights Reserved. 
+-->
 # 一个用来记录leetcode刷题过程的仓库
 
 ## 前期准备
@@ -39,7 +49,7 @@
     - 简单
         1. [旋转字符串-796](https://leetcode.cn/problems/rotate-string/)
         2. [统计包含给定前缀的字符串-2185](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
-        3. [最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/)
+        3. [最长公共前缀 -14](https://leetcode.cn/problems/longest-common-prefix/)
 
     - 中等
         1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)  
@@ -50,6 +60,13 @@
 
 
 #### 数组
+
+- leetcode
+    - 简单
+        1. [删除有序数组中的重复项-26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
+        2. [杨辉三角-118](https://leetcode.cn/problems/pascals-triangle/)    
+        主要get了里面不同长度vector的创造方法，比如初始化的时候只给最外围的vector赋长度，后面在for循环里用resize重新赋长度。
+        
 #### 链表
 #### 树
 #### 栈和队列
@@ -74,6 +91,9 @@
 #### 递归和循环
 #### 贪心算法
 #### 双指针
+- leetcode
+    - 简单
+        1. [删除有序数组中的重复项-26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)(数组)
 #### 深度优先和广度优先
 #### 滑动窗口
 
