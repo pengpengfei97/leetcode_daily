@@ -2,7 +2,7 @@
  * @Author: pengpengfei97 pengpengfei97@gmail.com
  * @Date: 2023-02-07 20:10:47
  * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
- * @LastEditTime: 2023-02-21 22:39:33
+ * @LastEditTime: 2023-03-05 00:48:43
  * @FilePath: /leetcode_daily/README.md
  * @Description: 
  * 
@@ -65,8 +65,10 @@
     - 简单
         1. [删除有序数组中的重复项-26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
         2. [杨辉三角-118](https://leetcode.cn/problems/pascals-triangle/)    
-        主要get了里面不同长度vector的创造方法，比如初始化的时候只给最外围的vector赋长度，后面在for循环里用resize重新赋长度。
-        
+        主要get了里面不同长度vector的创建方法，比如初始化的时候只给最外围的vector赋长度，后面在for循环里用resize重新赋长度。
+    - 中等
+        1. [盛最多水的容器-11](https://leetcode.cn/problems/container-with-most-water/)
+
 #### 链表
 #### 树
 #### 栈和队列
@@ -94,6 +96,8 @@
 - leetcode
     - 简单
         1. [删除有序数组中的重复项-26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)(数组)
+    - 中等
+        1. [盛最多水的容器-11](https://leetcode.cn/problems/container-with-most-water/)(数组)
 #### 深度优先和广度优先
 #### 滑动窗口
 
