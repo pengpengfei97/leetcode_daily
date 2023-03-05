@@ -2,7 +2,7 @@
  * @Author: pengpengfei97 pengpengfei97@gmail.com
  * @Date: 2023-02-07 20:10:47
  * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
- * @LastEditTime: 2023-03-05 00:48:43
+ * @LastEditTime: 2023-03-06 00:33:11
  * @FilePath: /leetcode_daily/README.md
  * @Description: 
  * 
@@ -68,6 +68,7 @@
         主要get了里面不同长度vector的创建方法，比如初始化的时候只给最外围的vector赋长度，后面在for循环里用resize重新赋长度。
     - 中等
         1. [盛最多水的容器-11](https://leetcode.cn/problems/container-with-most-water/)
+        2. [跳跃游戏-55](https://leetcode.cn/problems/jump-game/)
 
 #### 链表
 #### 树
