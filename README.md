@@ -2,7 +2,7 @@
  * @Author: pengpengfei97 pengpengfei97@gmail.com
  * @Date: 2023-02-07 20:10:47
  * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
- * @LastEditTime: 2023-03-06 00:33:11
+ * @LastEditTime: 2023-03-10 23:24:59
  * @FilePath: /leetcode_daily/README.md
  * @Description: 
  * 
@@ -37,73 +37,68 @@
 
 #### 字符串
 
-- books
+1. [字符串的旋转](DataStructure/string/string_rotate.cpp)
+2. [单词翻转](DataStructure/string/word_rotate.cpp)
+3. [字符串的包含](DataStructure/string/string_contain.cpp)
+4. [回文串判断](DataStructure/string/is_palindrome.cpp)
+5. [最大回文串数量计算](DataStructure/string/longest_palindrome.cpp)
 
-    1. [字符串的旋转](DataStructure/string/string_rotate.cpp)
-    2. [单词翻转](DataStructure/string/word_rotate.cpp)
-    3. [字符串的包含](DataStructure/string/string_contain.cpp)
-    4. [回文串判断](DataStructure/string/is_palindrome.cpp)
-    5. [最大回文串数量计算](DataStructure/string/longest_palindrome.cpp)
+- 简单
+    1. [旋转字符串-796](https://leetcode.cn/problems/rotate-string/)
+    2. [统计包含给定前缀的字符串-2185](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
+    3. [最长公共前缀 -14](https://leetcode.cn/problems/longest-common-prefix/)
 
-- leetcode
-    - 简单
-        1. [旋转字符串-796](https://leetcode.cn/problems/rotate-string/)
-        2. [统计包含给定前缀的字符串-2185](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
-        3. [最长公共前缀 -14](https://leetcode.cn/problems/longest-common-prefix/)
-
-    - 中等
-        1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)  
-        看起来是字符串，其实主要还是动态规划的知识点，刚开始刷题且第一次做动态规划，一道题磕了一晚上,有被难到 TT。掌握了动态规划的基本思想，同时get了使用vector创建并初始化二维数组的方法。
-        2. [字符串解码-394](https://leetcode.cn/problems/decode-string/)   
-        字符串和栈的结合，因为还没看栈的题加上对栈有点忘了，也用了一点时间。
-        3. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+- 中等
+    1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)  
+    看起来是字符串，其实主要还是动态规划的知识点，刚开始刷题且第一次做动态规划，一道题磕了一晚上,有被难到 TT。掌握了动态规划的基本思想，同时get了使用vector创建并初始化二维数组的方法。
+    2. [字符串解码-394](https://leetcode.cn/problems/decode-string/)   
+    字符串和栈的结合，因为还没看栈的题加上对栈有点忘了，也用了一点时间。
+    3. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+    4. [在排序数组中查找元素的第一个和最后一个位置-34](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array)   
+    二分查找及其相关应用
 
 
 #### 数组
 
-- leetcode
-    - 简单
-        1. [删除有序数组中的重复项-26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
-        2. [杨辉三角-118](https://leetcode.cn/problems/pascals-triangle/)    
-        主要get了里面不同长度vector的创建方法，比如初始化的时候只给最外围的vector赋长度，后面在for循环里用resize重新赋长度。
-    - 中等
-        1. [盛最多水的容器-11](https://leetcode.cn/problems/container-with-most-water/)
-        2. [跳跃游戏-55](https://leetcode.cn/problems/jump-game/)
+- 简单
+    1. [删除有序数组中的重复项-26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
+    2. [杨辉三角-118](https://leetcode.cn/problems/pascals-triangle/)    
+    主要get了里面不同长度vector的创建方法，比如初始化的时候只给最外围的vector赋长度，后面在for循环里用resize重新赋长度。
+- 中等
+    1. [盛最多水的容器-11](https://leetcode.cn/problems/container-with-most-water/)
+    2. [跳跃游戏-55](https://leetcode.cn/problems/jump-game/)
+    3. [有效的数独-36](https://leetcode.cn/problems/valid-sudoku/)
 
 #### 链表
 #### 树
 #### 栈和队列
-- leetcode
-    - 中等
-        1. [字符串解码-394](https://leetcode.cn/problems/decode-string/)（字符串）
+- 中等
+    1. [字符串解码-394](https://leetcode.cn/problems/decode-string/)（字符串）
 #### 哈希表
-- leetcode
-    - 中等
-        1. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)(字符串)
+- 中等
+    1. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)(字符串)
+    2. [有效的数独-36](https://leetcode.cn/problems/valid-sudoku/)(数组)
 #### 数学
 
 ### 算法部分
 
 #### 查找和排序
+- 中等
+    1. [在排序数组中查找元素的第一个和最后一个位置-34](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array)  
 #### 动态规划
-
-- leetcode
-    - 中等
-        1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)（字符串）
+- 中等
+    1. [交错字符串-97](https://leetcode.cn/problems/interleaving-string/)（字符串）
 
 #### 递归和循环
 #### 贪心算法
 #### 双指针
-- leetcode
-    - 简单
-        1. [删除有序数组中的重复项-26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)(数组)
-    - 中等
-        1. [盛最多水的容器-11](https://leetcode.cn/problems/container-with-most-water/)(数组)
+- 简单
+    1. [删除有序数组中的重复项-26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)(数组)
+- 中等
+    1. [盛最多水的容器-11](https://leetcode.cn/problems/container-with-most-water/)(数组)
 #### 深度优先和广度优先
 #### 滑动窗口
-
-- leetcode
-    - 中等
-        1. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)(字符串)
+- 中等
+    1. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)(字符串)
 #### 回溯
 #### 位运算
