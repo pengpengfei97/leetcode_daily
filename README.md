@@ -2,7 +2,7 @@
  * @Author: pengpengfei97 pengpengfei97@gmail.com
  * @Date: 2023-02-07 20:10:47
  * @LastEditors: pengpengfei97 pengpengfei97@gmail.com
- * @LastEditTime: 2023-03-10 23:24:59
+ * @LastEditTime: 2023-03-10 23:34:05
  * @FilePath: /leetcode_daily/README.md
  * @Description: 
  * 
@@ -55,7 +55,7 @@
     字符串和栈的结合，因为还没看栈的题加上对栈有点忘了，也用了一点时间。
     3. [无重复字符的最长子串-3](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
     4. [在排序数组中查找元素的第一个和最后一个位置-34](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array)   
-    二分查找及其相关应用
+    二分查找及其相关应用，[讲解见（虽然最后没用这个方法）](https://www.bilibili.com/video/BV1AP41137w7/?vd_source=282f37391013c05220098e8ba9716446)
 
 
 #### 数组
