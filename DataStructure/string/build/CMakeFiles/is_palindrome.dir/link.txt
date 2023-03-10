@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/is_palindrome.dir/is_palindrome.cpp.o  -o is_palindrome 
